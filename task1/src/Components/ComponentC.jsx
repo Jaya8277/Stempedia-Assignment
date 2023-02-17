@@ -7,7 +7,7 @@ const ComponentC = () => {
     <div style={{ marginTop:20 }}>
       <span style={{ fontWeight: 600, fontSize: 25 }}><u>Output</u></span>
       <br/>
-      <p style={{ fontSize: 28,marginTop:-3}}> {textField}</p>
+      <p style={{ fontSize: 28,marginTop:-2}} > {textField}</p>
      
     </div>
   );
