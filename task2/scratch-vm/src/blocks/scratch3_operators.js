@@ -153,11 +153,12 @@ class Scratch3OperatorsBlocks {
     }
 
     square (args) {
-        return Math.square(Cast.toNumber(args.NUM));
+        const n = Cast.toNumber(args.NUM);
+        return n * n;
     }
 
     squareroot (args) {
-        return Math.squareroot(Cast.toNumber(args.NUM));
+        return Math.sqrt(Math.abs(args.NUM));
     }
 }
 
